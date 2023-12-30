@@ -1,0 +1,570 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+body {
+  background: #0a0a0a;
+}
+
+border-box {
+  overflow-x: hidden;
+}
+header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background: #1b1d1e;
+  position: fixed;
+  z-index: 999;
+}
+
+.header {
+  width: 70%;
+  height: 10rem;
+  padding: 0 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .logo {
+  width: 180px;
+}
+
+.navbar-list {
+  display: flex;
+  gap: 3.3rem;
+  list-style: none;
+}
+.navbar-link:link,
+.navbar-link:visited {
+  display: inline-block;
+
+  text-decoration: none;
+  font-size: 1.7rem;
+  font-weight: 700;
+  color: white;
+  transition: all 0.3s;
+}
+.navbar-link:hover,
+.navbar-link:active {
+  color: #ebb02d;
+  cursor: pointer;
+  border-radius: 9px;
+  transition: 0.5s ease-in;
+}
+
+.mobile-navbar-btn {
+  display: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+.mobile-nav-icon {
+  width: 4rem;
+  height: 4rem;
+  color: white;
+  font-size: 700;
+}
+
+.mobile-nav-icon[name="close-outline"] {
+  display: none;
+}
+
+/********Hero Section******/
+
+.all-section {
+  width: 100%;
+  background-color: #0a0a0a;
+  display: flex;
+  justify-content: center;
+}
+.hero-section {
+  width: 70%;
+  position: relative;
+  top: 100px;
+  padding-bottom: 100px;
+}
+.hero-section img {
+}
+
+/******   About Me    ******/
+
+.big-box-1 {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 70%;
+  border: 2px solid;
+  padding: 20px;
+  background-color: black;
+}
+
+.big-box-12 {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  padding: 30px 0 0 40px;
+  flex-basis: 220px;
+}
+
+.big-box-12 p {
+  font-size: 40px;
+  font-weight: 900;
+  color: white;
+  margin-bottom: 20px;
+}
+.button-more button {
+  margin-top: 30px;
+  padding: 8px 18px;
+  background: red;
+  color: white;
+  border: none;
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 4px;
+}
+
+.big-box-22 {
+  width: 65%;
+  padding-top: 20px;
+}
+.box-about-me {
+  width: 100%;
+}
+.box-about-me p {
+  margin-bottom: 30px;
+  color: white;
+  font-size: 18px;
+  text-align: justify;
+  line-height: 1.3;
+  word-spacing: 1.5px;
+}
+
+.img-box {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.img-1 {
+  width: 400px;
+  height: 200px;
+  border-radius: 20px 0 0 20px;
+}
+
+/*Boost Your Project With My assistance*/
+
+.container {
+  width: 70%;
+  margin: 0 auto;
+  background: black;
+}
+
+.project-title {
+  font-size: 30px;
+  text-align: center;
+  font-weight: 900px;
+  color: white;
+  margin: 60px 0;
+}
+
+.main-box-2 {
+  margin-top: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 70px;
+}
+
+.box {
+  width: 20%;
+  display: flex;
+  flex-basis: 300px;
+  align-items: center;
+  flex-direction: column;
+  flex-grow: 1;
+  color: white;
+}
+
+.box h3 {
+  font-size: 23px;
+  text-align: center;
+  padding-top: 20px;
+  color: white;
+}
+.box p {
+  padding: 30px;
+  color: white;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+/*******************************<!-- A summary of My Resume -->*/
+.edu-section {
+  color: white;
+  background: black;
+  width: 70%;
+  margin: 0 auto;
+}
+.education-box-heading p {
+  font-size: 40px;
+  text-align: center;
+  padding: 30px;
+}
+.education-box {
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.head-tite-0 {
+  padding: 20px;
+  font-size: 35px;
+  font-weight: 600;
+}
+.education-box-21 {
+  margin: 0px 10px;
+  width: 48%;
+}
+.education-box-1 {
+  padding-bottom: 40px;
+  margin: 20px 0px 30px 30px;
+  border-bottom: 2px solid rgba(227, 227, 225, 0.7);
+}
+
+.education-box-left {
+  border-left: 2px solid rgba(255, 233, 33, 0.6);
+}
+.education-box-right {
+  border-left: 2px solid rgba(255, 233, 33, 0.6);
+}
+.head-tite-l {
+  padding-bottom: 10px;
+  font-size: 25px;
+  opacity: 0.8;
+}
+.head-tite-2 {
+  padding-bottom: 10px;
+  font-size: 20px;
+  opacity: 0.8;
+}
+.head-tite-3 {
+  font-size: 18px;
+  opacity: 0.7;
+}
+
+/*<!-- Some of my most recent projects -->*/
+
+.recent-projects-main {
+  color: white;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+img {
+  max-width: 100%;
+}
+
+.recent-projects {
+  width: 70%;
+  border: none;
+  background-color: black;
+}
+
+.recent-projects-title {
+  font-size: 30px;
+  font-weight: 800;
+  text-align: center;
+  padding: 30px 0;
+}
+.recent-projects-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 30px;
+  flex-wrap: wrap;
+  row-gap: 30px;
+  margin: 20px;
+}
+
+.recent-projects-box {
+  width: 25%;
+  flex-basis: 350px;
+}
+
+/*<!-- Let's get in touch         Estimate your Project? -->*/
+
+.contuct-section {
+  color: white;
+}
+.contuct-section-container {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: black;
+}
+.contuct-section-container-box {
+  width: 50%;
+  padding: 20px;
+}
+.contuct-box-1 {
+  font-size: 30px;
+  padding: 40px 0;
+}
+.contuct-box-2 {
+  font-size: 23px;
+  padding: 20px 0;
+}
+.contuct-box-33 {
+  font-size: 25px;
+  padding: 13px 0;
+  font-weight: 600;
+  opacity: 0.9;
+}
+
+.contuct-box-31 {
+  font-size: 20px;
+  opacity: 0.5;
+}
+.social-media-icons {
+  padding-top: 30px;
+}
+.social-media-icons a {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background: orange;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: white;
+  font-size: 1.4rem;
+  margin: 20px;
+}
+.social-media-icons a:hover {
+  background: white;
+  color: black;
+  transform: scale(1.2);
+  transition: 0.4s;
+}
+.social-media-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*box-sizing*/
+
+.form-box {
+  padding-left: 30px;
+}
+
+.form-label {
+  padding: 30px 0 8px 0px;
+  display: block;
+  font-size: 20px;
+}
+
+.form-design {
+  width: 90%;
+  height: 40px;
+  border: none;
+  border-bottom: 1px solid #d3cdcd;
+  background: black;
+  color: white;
+  outline: none;
+}
+.form-design-big {
+  width: 90%;
+  height: 80px;
+  border: none;
+  border-bottom: 1px solid #d3cdcd;
+  background: black;
+  color: white;
+  outline: none;
+}
+.button-send {
+  display: flex;
+  justify-content: flex-end;
+  margin: 30px 50px 60px 0;
+}
+.button-send button {
+  width: 140px;
+  height: 35px;
+  font-size: 18px;
+  font-weight: 600;
+  background: #e2e6d3;
+  border: none;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.all-footer {
+  height: 100px;
+  width: 100%;
+  background: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+
+.all-footer a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #e6c805;
+}
+
+/********************************
+ 	Start for Responciv Section  
+ ********************************/
+
+@media only screen and (max-width: 62em) {
+  .mobile-navbar-btn {
+    display: block;
+    z-index: 999;
+    border: 2px solid black;
+  }
+
+  .header {
+    position: relative;
+    width: 100%;
+  }
+
+  .navbar {
+    display: none;
+    width: 40%;
+    height: 270px;
+    background: #00000099;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    border-radius: 0 0 0 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /***********To Get The transition**************/
+
+    transform: translateX(100%);
+    transition: all 0.8s linear;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+  }
+
+  .navbar-list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .active .navbar {
+    transform: translateX(0);
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+  }
+
+  .active .mobile-navbar-btn .mobile-nav-icon[name="close-outline"] {
+    display: block;
+  }
+  .active .mobile-navbar-btn .mobile-nav-icon[name="menu-outline"] {
+    display: none;
+  }
+
+  /* hero Section	*/
+
+  .hero-section {
+    width: 100%;
+  }
+  /*<!-- About Me -->*/
+
+  .img-box {
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 20px;
+  }
+  .img-1 {
+    width: 300px;
+    height: 200px;
+    border-radius: 20px 0 0 20px;
+  }
+  .big-box-12 {
+    padding: 20px 0 0 2px;
+  }
+
+  .big-box-12 p {
+    font-size: 30px;
+    font-weight: 600;
+  }
+  .button-more {
+    display: none;
+  }
+  .big-box-22 {
+    width: 100%;
+    padding-right: 10px;
+    overflow: hidden;
+  }
+  /*<!-- A summary of My Resume -->*/
+
+  .education-box {
+    flex-direction: column;
+    row-gap: 50px;
+  }
+  .education-box-21 {
+    width: 90%;
+  }
+  .education-box-21 {
+    width: 90%;
+  }
+}
+
+/*<!-- Some of my most recent projects -->*/
+
+@media only screen and (max-width: 1100px) {
+  .recent-projects {
+    width: 80%;
+  }
+  .recent-projects-box {
+    flex-basis: 260px;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .recent-projects-box {
+    flex-basis: 350px;
+  }
+}
+/*<!-- Let's get in touch         Estimate your Project? -->*/
+
+@media only screen and (max-width: 1000px) {
+  .contuct-section-container {
+    flex-direction: column;
+    width: 90%;
+  }
+  .contuct-section-container-box {
+    width: 90%;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .contuct-section-container {
+    width: 90%;
+  }
+}
+
+/*Below 560px*/
+
+@media only screen and (max-width: 35em) {
+  .header {
+    width: 100%;
+  }
+}
